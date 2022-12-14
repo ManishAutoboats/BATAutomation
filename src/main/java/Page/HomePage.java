@@ -32,6 +32,9 @@ public class HomePage extends WebDriverHelper {
 		waitForExpectedElement(PersonIcon, 15);
 		hoverOnElement(PersonIcon);
 		waitForExpectedElement(SignLink, 20).click();
+		
+		
+		
 
 	}
 
