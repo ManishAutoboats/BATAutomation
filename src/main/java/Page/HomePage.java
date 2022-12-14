@@ -16,7 +16,7 @@ public class HomePage extends WebDriverHelper {
 	public final static By VIEW_BASKET = By.cssSelector(
 			"#minicart-content-wrapper > div > div.actions.minicart-actions > div > a,a.action.viewcart.primary");
 	public static final By REMOVE_ITEM_FROM_BASKETPAGE_ICON_UK_CX = By.cssSelector("button.action.primary.remove");
-	public static final By CONFIRM_ITEM_REMOVAL_FROM_BASKETPAGE_UK_CX = By.cssSelector("a.action.action-delete1");
+	public static final By CONFIRM_ITEM_REMOVAL_FROM_BASKETPAGE_UK_CX = By.cssSelector("a.action.action-delete");
 
 	public void selectCookieAndAgeGate() {
 		waitForExpectedElement(allowCookiesButton, 20);
